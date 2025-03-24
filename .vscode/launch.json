@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "package1",
+      "request": "launch",
+      "mainClass": "package1",
+      "projectName": "JAVA_56a440db"
+    },
+    {
+      "type": "java",
+      "name": "Backtracking",
+      "request": "launch",
+      "mainClass": "Backtracking",
+      "projectName": "JAVA_56a440db"
+    },
+    {
+      "type": "java",
+      "name": "Conditional",
+      "request": "launch",
+      "mainClass": "Conditional",
+      "projectName": "JAVA_56a440db"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Programing/JAVA",
+      "program": "c:/Programing/JAVA/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
