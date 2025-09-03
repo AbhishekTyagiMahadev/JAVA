@@ -1,0 +1,41 @@
+// Pattern
+// *             *
+// * *         * *
+// * * *     * * * 
+// * * * * * * * *
+// * * *     * * * 
+// * *         * * 
+// *             * 
+
+import java.util.Scanner;
+public class ButterflyPattern {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Hight of Pyramid: ");
+        int h = sc.nextInt();
+        for(int i = 1; i <= h; i++) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for(int j = 1; j <= (h-i)*2; j++) {
+                System.out.print("  ");
+            }
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
+        for(int i = h; i > 0; i--) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for(int j = 1; j <= (h-i)*2; j++) {
+                System.out.print("  ");
+            }
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
+    }
+}
